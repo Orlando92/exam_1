@@ -1,0 +1,5 @@
+package guru.orlando.tech_start.adapters;
+
+public class MySQLFetcher {
+
+}

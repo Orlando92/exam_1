@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="lombok.Getter"/>
+    <fullyQualifiedTypeName name="guru.orlando.tech_start.dtos.ResultsDTO"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="org.springframework.jdbc.core.JdbcTemplate"/>
+    <fullyQualifiedTypeName name="org.springframework.jdbc.core.RowMapper"/>
+    <fullyQualifiedTypeName name="lombok.AllArgsConstructor"/>
+    <fullyQualifiedTypeName name="guru.orlando.tech_start.dtos.ResultDTO"/>
+    <fullyQualifiedTypeName name="org.springframework.stereotype.Component"/>
+    <fullyQualifiedTypeName name="org.springframework.boot.CommandLineRunner"/>
+    <fullyQualifiedTypeName name="guru.orlando.tech_start.usecases.ETL"/>
+    <fullyQualifiedTypeName name="guru.orlando.tech_start.adapters.MySQLFetcher"/>
+    <fullyQualifiedTypeName name="guru.orlando.tech_start.adapters.MongoSaver"/>
+    <fullyQualifiedTypeName name="org.springframework.data.mongodb.core.MongoTemplate"/>
+    <fullyQualifiedTypeName name="guru.orlando.tech_start.ports.Fetcher"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
+    <fullyQualifiedTypeName name="guru.orlando.tech_start.ports.Saver"/>
+    <fullyQualifiedTypeName name="lombok.extern.slf4j.Slf4j"/>
+</qualifiedTypeNameHistroy>

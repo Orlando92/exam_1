@@ -1,0 +1,13 @@
+package guru.orlando.tech_start.usecases;
+
+import guru.orlando.tech_start.ports.Fetcher;
+import guru.orlando.tech_start.ports.Saver;
+import lombok.AllArgsConstructor;
+
+@AllArgsConstructor
+public class ETL {
+	
+	private Fetcher fetcher;
+	private Saver saver;
+	
+}

@@ -1,0 +1,26 @@
+package guru.orlando.tech_start.dtos;
+
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+
+@Getter
+@AllArgsConstructor
+public class ResultDTO {
+	
+	private int invoice_number;
+	private String purchase_date;
+	private String distributor_name;
+	private String distributor_Address;
+	private String customer_name;
+	private String customerAddress;
+	private String manufacturerName;
+	private String manufacturerAddress;
+	private int productCode;
+	private String productDescription;
+	private String unitOfMeasure;
+	private int purchasedQty; 
+	private float purchasedWeight;
+	private float unitPrice;
+	private float totalPrice;	
+	
+}

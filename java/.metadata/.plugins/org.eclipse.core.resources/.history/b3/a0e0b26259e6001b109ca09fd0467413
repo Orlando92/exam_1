@@ -1,0 +1,13 @@
+
+spring:
+  datasource:
+    driverClassName: com.mysql.cj.jdbc.Driver
+    password: 123456
+    url: jdbc:mysql://${MYSQL_HOST:localhost}:3306/mpv_db?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC
+    username: root
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: tech_start
+       

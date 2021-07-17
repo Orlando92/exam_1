@@ -1,0 +1,26 @@
+package guru.orlando.tech_start.adapters;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.jdbc.core.JdbcTemplate;
+import org.springframework.stereotype.Component;
+
+import guru.orlando.tech_start.dtos.ResultDTO;
+import guru.orlando.tech_start.ports.Fetcher;
+
+@Component
+public class MySQLFetcher implements Fetcher {
+	
+	@Autowired
+	JdbcTemplate template;
+	
+	@Override
+	public List<ResultDTO> fetch() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	
+	
+	
+}
