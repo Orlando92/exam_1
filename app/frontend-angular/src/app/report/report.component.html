@@ -1,0 +1,15 @@
+<table *ngIf="results.length > 0; else noResults" class="table table-striped">
+    <thead>
+        <tr>
+            <th *ngFor="let key of getKeys()" scope="col">{{ key }}</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let result of results">
+            <td *ngFor="let attr of result | keyvalue">{{ attr.value }}</td>
+        </tr>
+    </tbody>
+</table>
+<ng-template #noResults>
+    <h3>No Results</h3>
+</ng-template>

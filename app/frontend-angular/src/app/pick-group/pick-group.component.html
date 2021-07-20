@@ -1,0 +1,11 @@
+<form [formGroup]="groupForm" (ngSubmit)="submit()" class="form">
+    <div class="form-group">
+        <label for="">Pick a Group</label>
+        <select class="form-control" formControlName="group">
+            <option *ngFor="let group of groups" [value]="group.name">{{ group.name }}</option>
+        </select>
+    </div>
+    <div class="form-group">
+        <button class="btn btn-primary">Fetch</button>
+    </div>
+</form>
